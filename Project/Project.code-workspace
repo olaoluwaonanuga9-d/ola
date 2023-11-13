@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Olaoluwa-S2C/Assignment/facebook"
+		},
+		{
+			"path": "../Olaoluwa-S2C/Assignment/monkey"
+		},
+		{
+			"path": "../Olaoluwa-S2C/Assignment/mouse"
+		},
+		{
+			"path": "../Olaoluwa-S2C/Assignment/mtn"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Project"
+	}
+}

@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p span {
+    color: rgb(183, 182, 96);
+}
+:root {
+    color-scheme: dark;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 0;
+}
+.item-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    z-index: 2;
+    padding-left: 40px;
+}
+.item-2 {
+    width: 50%;
+}
+header {
+    color: rgb(183, 182, 96);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    color: rgb(183, 182, 96);
+    letter-spacing: 2px; 
+}
+p {
+    letter-spacing: .5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1px;
+    width: 100%;
+    height: fit-content;
+
+}
+.links a {
+    min-height: 70px;
+    width: 300px;
+    border: 2px solid  rgb(183, 182, 96);
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.links a:hover{
+    background-color:  rgb(183, 182, 96);
+}
+#grow {
+    background-color:  rgb(183, 182, 96);
+    width: 630px;
+}
+
+
+@media screen and (max-width:1273px) {
+  .links a{
+    width: 630px;
+  }
+}
+@media screen and (max-width:800px) {
+    .links a {
+        width: 630px;
+        
+    }
+    
+    
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .item-1 {
+        width: 100%;
+    }
+
+}
